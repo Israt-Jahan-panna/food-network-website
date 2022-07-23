@@ -5,31 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FOOD NETWORK</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Home Page -->
     <section class="banner">
       <div class="main-body">
-        <div class="main-container">
-          <div class="hero-section">
-            <div class="left-container">
-              <h1>
-                <span class="text1"> Skip </span> The Diet, <br />
-                Just Eat Health <br />
-                With Food Network
-              </h1>
-              <p>
-                Imagine you don't need a diet because we provide <br />
-                healty and delicious food for you!
-              </p>
-
-              <button>Order Food</button>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="headingbody  left-container">
+                <h1 class="haeding-text" style="font-size: 6rem; font-weight:50rem;">
+                  <span class="text1"> Skip </span> The Diet, <br />
+                  Just Eat Health <br />
+                  With Food Network
+                </h1>
+                <p>
+                  Imagine you don't need a diet because we provide <br />
+                  healty and delicious food for you!
+                </p>
+  
+                <button >Order Food</button>
+              </div>
             </div>
 
-            <div class="right-container">
+            <div class="col-lg-6 col-sm-12">
               <div class="image">
-                <img src="./Group 8425.png" alt="" />
+                <img src="./Group 8425.png" alt="" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -42,25 +45,29 @@
 
     <section class="about-section">
       <div class="about-main">
-        <div class="about-container">
-          <div class="about-herosection">
-            <div class="about-left">
-              <div class="my-image">
-                <img src="Person Image.png" alt="" />
+        <div class="container">
+          <div class=" row about-herosection">
+            <div class="col-lg-6 col-md-12">
+              <div class=" about-left">
+                <div class="my-image">
+                  <img src="Person Image.png" alt="" class="img-fluid -none"/>
+                </div>
               </div>
             </div>
-            <div class="about-right">
-              <div class="about">
-                <h1>ABOUT ME</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi nemo quam aut aliquid. Maxime, necessitatibus
-                  voluptas pariatur non ullam officia?
-                </p>
-
-                <button>Contact Me</button>
+            <div class="col-lg-6 col-md-12">
+              <div class="about-right mt-5 ">
+                <div class="about">
+                  <h1>ABOUT ME</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi nemo quam aut aliquid. Maxime, necessitatibus
+                    voluptas pariatur non ullam officia?
+                  </p>
+  
+                  <button >Contact Me</button>
+                </div>
+                <div></div>
               </div>
-              <div></div>
             </div>
           </div>
         </div>
@@ -69,68 +76,91 @@
 
     <!-- RECIPES SECTION -->
     <section class="my-recipes">
-      <div class="recipes-body">
-        <div class="recipes-container">
-          <div class="item-container1">
-            <div class="my-recipe">
-              <h1>My Recipes</h1>
+      
+      <div class="container mt-5 ms-auto ">
+        <div class="myrecipe">
+          <h1 class="haeding-text"  >My Recipe</h1>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vero  Temporibus aspernatur odio animi distinctio molestiae maiores?</p>
+  
+        </div>
+          
+      </div>
+   
+     <!-- itemsection start -->
+    <div class="container mt-5">
+      <div class="row g-4 ">
+        <div class="col-lg-4 col-sm-12 ">
+          <div class="card" style="font-size:5rem">
+            <div class=" card-body  ">
+              <img class="items img-fluid" src="./Items1.jpg" alt="" />
+              <div class="recipestext ">
+                <h1>Recipe Title</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-                placeat accusamus doloremque sint eligendi commodi magnam
-                ratione earum quis quo?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Fugiat fugit nihil corrupti.
               </p>
-            </div>
-          </div>
-          <div class="item-container2">
-            <div class="recipes-describtion">
-              <div class="recipe1">
-                <img class="items1" src="./Items1.jpg" alt="" />
-                <h1>Recipe Title</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Fugiat fugit nihil corrupti.
-                </p>
-              </div>
-              <div class="recipe2">
-                <img class="items2" src="./Items2.jpg" alt="" />
-                <h1>Recipe Title</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Fugiat fugit nihil corrupti.
-                </p>
-              </div>
-              <div class="recipe3">
-                <img class="items3" src="./Items3 .png" alt="" />
-                <h1>Recipe Title</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Fugiat fugit nihil corrupti, non tempore
-                </p>
               </div>
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card ">
+            <div class=" card-body  ">
+              <img class="items img-fluid" src="./Items2.jpg" alt="" />
+              <div class="recipestext">
+                <h1>Recipe Title</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Fugiat fugit nihil corrupti.
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class=" card-body  ">
+              <img class="items img-fluid" src="./Items1.jpg" alt="" />
+              <div class="recipestext">
+                <h1>Recipe Title</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Fugiat fugit nihil corrupti.
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+          <!-- itemsection end -->
+        
       </div>
     </section>
     <!-- Page reach -->
     <section class="page-status">
-      <div class="statusbody">
-        <div class="page-container">
-          <div class="page-status-box">
-            <div class="sub-status">
-              <h1>700k</h1>
-              <p>Youtube Subscribe</p>
-            </div>
-
-            <div class="inst-status">
-              <h1>2.4m</h1>
-              <p>Instragram Followes</p>
-            </div>
-            <div class="drbl-status">
-              <h1>100k</h1>
-              <p>Dribbble Short Like</p>
+      <div class="container">
+        <div class="row status-row rounded-5 ms-sm-5 p-3 text-center">
+          <div class="col-lg-4">
+            <div class="sub-status m-5">
+              <h1 class="" style="font-size: 4rem;">700k</h1>
+              <p style="font-size: 2rem;">Youtube Subscribe</p>
             </div>
           </div>
+            <div class="col-lg-4">
+              <div class="inst-status m-5">
+                <h1 style="font-size: 4rem;">2.4m</h1>
+                <p style="font-size: 2rem;">Instragram Followes</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="drbl-status m-5">
+                <h1 style="font-size: 4rem;">100k</h1>
+                <p style="font-size: 2rem;">Dribbble Short Like</p>
+              </div>
+            </div>
+          
         </div>
       </div>
     </section>
@@ -139,5 +169,7 @@
       <h1><span class="text-food">FOOD</span> NETWORK</h1>
       <p>Eat healthy to live healthy > Live healthy to live happy</p>
     </footer>
+    <!-- jslink -->
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
